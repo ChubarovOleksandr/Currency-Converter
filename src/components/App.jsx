@@ -9,7 +9,7 @@ function App() {
   const [secondCurrencyData, setSecondCurrencyData] = useState("UAH");
   const [secondCurrencyAmount, setSecondCurrencyAmount] = useState("");
 
-  const [exchangeRate, setExchangeRate] = useState();
+  const [exchangeRate, setExchangeRate] = useState([]);
 
   const calculateRate = (fromCurrency, toCurrency, amount, currencyNumber) => {
     const fromRate = exchangeRate.find((rate) => rate.ccy === fromCurrency);
