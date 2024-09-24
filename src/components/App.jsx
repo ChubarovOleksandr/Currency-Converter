@@ -55,7 +55,7 @@ function App() {
   };
 
   useEffect(() => {
-    getCourse().then((result) => {
+    getCourse().then((result) => {      
       setExchangeRate(result.data);
     });
   }, []);

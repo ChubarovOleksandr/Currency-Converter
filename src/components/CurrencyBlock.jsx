@@ -4,7 +4,7 @@ import clearIcon from "../assets/clear.png";
 const CurrencyBlock = ({currencyData, currencyAmount, onCurrencyDataChange, onCurrencyAmountChange}) => {
   
   const currencyList = [
-    { code: "EUR", name: "Эвро" },
+    { code: "EUR", name: "Євро" },
     { code: "USD", name: "Долари" },
     { code: "UAH", name: "Гривні" },
   ];
